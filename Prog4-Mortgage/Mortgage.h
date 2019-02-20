@@ -1,3 +1,17 @@
 #pragma once
-// header file for Mortgage class
+
+using namespace std;
+
+class Mortgage
+{
+private:
+	float loan;
+	float rate;
+	int years;
+public:
+	float calculatePayment();
+	float calculateTotal();
+	Mortgage();
+	Mortgage(float, float, int);
+};
 
